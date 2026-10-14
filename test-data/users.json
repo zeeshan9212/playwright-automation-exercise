@@ -1,0 +1,39 @@
+{
+  "invalidLogins": [
+    {
+      "name": "wrong password",
+      "email": "wrong.password@example.com",
+      "password": "wrong123"
+    },
+
+    {
+      "name": "unknown user/Unregistered user",
+      "email": "nobody@example.com",
+      "password": "abc12345"
+    }
+  ],
+
+  "messages": {
+    "loginError": "Your email or password is incorrect!",
+    "emailExists": "Email Address already exist!"
+  },
+
+  "newUser": {
+    "name": "Ali Khan",
+    "password": "Test@12345",
+    "birthDay": "15",
+    "birthMonth": "June",
+    "birthYear": "1992",
+    "firstName": "Ali",
+    "lastName": "Khan",
+    "company": "Test Co",
+    "address": "House 12, Street 5, Model Town",
+    "country": "India",
+    "state": "Punjab",
+    "city": "Lahore",
+    "zipcode": "54000",
+    "mobile": "03001234567"
+  },
+
+  "searchTerms": ["tshirt", "jeans", "dress"]
+}
